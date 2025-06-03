@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adarsh Jha | Travel Video Editor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?travel') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+    }
+    .hero > div {
+      position: relative;
+      z-index: 2;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      color: black;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    .hero p {
+      font-size: 1.3rem;
+      color: #333;
+    }
+    .navbar-brand img {
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .project-card img {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+    }
+    .project-card .card-body {
+      background-color: #f8f9fa;
+      border-radius: 0 0 8px 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    #about {
+      background-color: #f9f9f9;
+    }
+    #about h2 {
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    #contact a {
+      transition: transform 0.3s;
+    }
+    #contact a:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="WhatsApp Image 2025-06-03 at 02.30.59_d0a6fc83.jpg" height="5px" alt="Adarsh Jha">
+        <span>Adarsh Jha</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#showreel">Showreel</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center justify-content-center position-relative" style="min-height: 90vh;">
+    <div class="container position-relative z-2">
+      <div class="hero-content bg-white bg-opacity-75 rounded-4 shadow-lg p-5 mx-auto" style="max-width: 650px;">
+        <h1 class="fw-bold text-dark mb-3" style="font-size: 3.2rem; letter-spacing: 1px; text-shadow: 0 2px 8px #fff, 0 0 2px #000;">
+          Hi, I'm Adarsh Jha
+        </h1>
+        <p class="lead text-dark fs-4 mb-4" style="text-shadow: 0 2px 8px #fff, 0 0 2px #000;">
+          Travel Video Editor <span style="color:#0d6efd;">|</span> Front End Developer <span style="color:#0d6efd;">|</span> Storyteller <span style="color:#0d6efd;">|</span> Creator
+        </p>
+        <a href="#showreel" class="btn btn-primary btn-lg px-5 py-3 shadow">Watch My Showreel</a>
+      </div>
+    </div>
+    <style>
+      .hero {
+        background: linear-gradient(120deg, rgba(0,123,255,0.12) 0%, rgba(255,255,255,0.8) 100%), url('https://source.unsplash.com/1600x600/?travel,cinematic') no-repeat center center/cover;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-content {
+        backdrop-filter: blur(2px);
+        border: 2px solid #e3e3e3;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+      }
+      @media (max-width: 768px) {
+        .hero-content {
+          padding: 2rem 1rem;
+        }
+        .hero h1 {
+          font-size: 2.1rem !important;
+        }
+        .hero {
+          min-height: 60vh !important;
+        }
+      }
+    </style>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <p class="lead">My name is Adarsh Jha, and I'm a passionate video editor based in India. I specialize in creating engaging travel content that captures the essence of places and experiences. With a love for storytelling and visuals, I transform raw footage into cinematic journeys that resonate with viewers. Whether it's short-form reels, vlogs, or full travel documentaries, I bring energy, emotion, and style into every frame. I work with tools like Adobe Premiere Pro, After Effects, CapCut, and more.</p>
+    </div>
+  </section>
+
+  <!-- Showreel -->
+  <section id="showreel" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Showreel</h2>
+      <div class="ratio ratio-16x9">
+        <iframe src="WhatsApp Video 2025-06-03 at 02.37.09_5a32242c.mp4" title="Edi 1" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">My Projects</h2>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="https://www.bartmeise.de/wp-content/uploads/2016/12/Landscape-7.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Himalayan Journey</h5>
+              <p class="card-text">A storytelling edit from trekking footage with mood music.</p>
+              <a href="himalyan.html" class="btn btn-outline-primary btn-sm">Watch</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="https://wallpapercave.com/wp/wp8266769.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">City Life Reel</h5>
+              <p class="card-text">Fast-cut reel highlighting vibrant urban life for Instagram.</p>
+              <a href="#" class="btn btn-outline-primary btn-sm">Watch</a>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 bg-dark text-light">
+    <div class="container text-center">
+      <h2>Contact Me</h2>
+      <p>Let's connect and create amazing travel content together!</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="https://www.instagram.com/aadarsh._.xx/" class="btn btn-outline-light">Instagram</a>
+        <a href="https://wa.me/918595424701"  class="btn btn-outline-light">WhatsApp</a>
+        <a href="mailto:adarshjha24092005@gmail.com" class="btn btn-outline-light">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-light text-center py-3">
+    &copy; 2025 Adarsh Jha. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
